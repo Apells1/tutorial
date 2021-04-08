@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pewaukee Museum of Natural History</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Welcome to the Greatest website for tutorials!</h1>
+<p>We have a fine selection of grand tutorials all for free, just click the links above to be taken to each!</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
